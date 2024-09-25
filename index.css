@@ -1,0 +1,105 @@
+/* ------------------- */
+/*        Reset        */
+/* ------------------- */
+
+/* reset de pseudo elementos */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgba(96,58,117,255);
+}
+
+.a menu-header {
+    color: #FFF;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: rgba(186,143,186,255);
+    padding-block: 25px;
+}
+
+.carousel {
+    position: relative;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.carousel img {
+    max-height: 450px;
+    object-fit: cover;
+}
+
+.menu-header {
+    list-style: none;
+    display: flex;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.menu-header li {
+    letter-spacing: 2px;
+    margin-left: 15px;
+}
+
+.container-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.cards {
+    width: 325px;
+    background-color: rgba(186,143,186,255);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 2);
+    margin: 20px;
+    min-width: 400px;
+}
+
+.cards img {
+    width: 100%;
+    height: auto;
+}
+
+.conteudos-card {
+    margin: 8px;
+}
+
+.conteudos-card h3 {
+    font-size: 28;
+    margin-top: 2px;
+
+}
+
+.conteudos-card p{
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+.conteudos-card .btn{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: rgba(255,251,118,255);
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+}
